@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: DeleteUserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.318 s <<< FAILURE! - in DeleteUserTest
+UnSuccessfulDeleteUser  Time elapsed: 0.991 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <User with email:vladT1@gmail.comnot found> but was: <User with email: vladT1@gmail.com not found>
+	at DeleteUserTest.UnSuccessfulDeleteUser(DeleteUserTest.java:64)
+

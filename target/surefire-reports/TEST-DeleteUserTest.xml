@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DeleteUserTest" time="8.318" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\anyut\IdeaProjects\NoCodeRest\target\test-classes;C:\Users\anyut\IdeaProjects\NoCodeRest\target\classes;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\anyut\.m2\repository\io\rest-assured\rest-assured\5.2.1\rest-assured-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\anyut\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anyut\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\anyut\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\anyut\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\json-path\5.2.1\json-path-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\rest-assured-common\5.2.1\rest-assured-common-5.2.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\xml-path\5.2.1\xml-path-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\anyut\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-junit5\2.0-BETA19\allure-junit5-2.0-BETA19.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\anyut\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\anyut\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\anyut\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\anyut\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\anyut\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anyut\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\anyut\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\anyut\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\anyut\AppData\Local\Temp\surefire14331513300009076166\surefirebooter12998219297421332263.jar C:\Users\anyut\AppData\Local\Temp\surefire14331513300009076166 2023-06-19T23-00-41_205-jvmRun1 surefire5077912639362894025tmp surefire_011353380375731781145tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\anyut\IdeaProjects\NoCodeRest\target\test-classes;C:\Users\anyut\IdeaProjects\NoCodeRest\target\classes;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\anyut\.m2\repository\io\rest-assured\rest-assured\5.2.1\rest-assured-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\anyut\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\anyut\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\anyut\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\anyut\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\anyut\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\json-path\5.2.1\json-path-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\rest-assured-common\5.2.1\rest-assured-common-5.2.1.jar;C:\Users\anyut\.m2\repository\io\rest-assured\xml-path\5.2.1\xml-path-5.2.1.jar;C:\Users\anyut\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\anyut\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\anyut\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-junit5\2.0-BETA19\allure-junit5-2.0-BETA19.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\anyut\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\anyut\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\anyut\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-rest-assured\2.21.0\allure-rest-assured-2.21.0.jar;C:\Users\anyut\.m2\repository\io\qameta\allure\allure-attachments\2.21.0\allure-attachments-2.21.0.jar;C:\Users\anyut\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\anyut\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anyut\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\anyut\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\anyut\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\anyut\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anyut"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\anyut\IdeaProjects\NoCodeRest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\anyut\AppData\Local\Temp\surefire14331513300009076166\surefirebooter12998219297421332263.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="anyut"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\anyut\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anyut\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\anyut\IdeaProjects\NoCodeRest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="uk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\allure-2.21.0\allure-2.21.0\bin;C:\Program Files\Git\cmd;C:\Users\anyut\AppData\Local\Microsoft\WindowsApps;C:\Users\anyut\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\anyut\GitHubDesktop\bin;C:\Users\anyut\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="successfulRegistration" classname="DeleteUserTest" time="5.19"/>
+  <testcase name="successfulDeleteUser" classname="DeleteUserTest" time="1.245"/>
+  <testcase name="UnSuccessfulDeleteUser" classname="DeleteUserTest" time="0.991">
+    <failure message="expected: &lt;User with email:vladT1@gmail.comnot found&gt; but was: &lt;User with email: vladT1@gmail.com not found&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <User with email:vladT1@gmail.comnot found> but was: <User with email: vladT1@gmail.com not found>
+	at DeleteUserTest.UnSuccessfulDeleteUser(DeleteUserTest.java:64)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://studio-api.softr.io/v1/api/users/vladT1%40gmail.com
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Softr-Api-Key=khIbAyJIU5CIuh1oDuBRx1s49
+				Softr-Domain=jere237.softr.app
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Mon, 19 Jun 2023 21:00:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Disposition: inline;filename=f.txt
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Server: my-server
+Content-Encoding: gzip
+
+{
+    "code": "Not Found",
+    "message": "User with email: vladT1@gmail.com not found",
+    "instance": null,
+    "status": null,
+    "title": null,
+    "type": null,
+    "source": null
+}
+]]></system-out>
+  </testcase>
+</testsuite>

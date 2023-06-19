@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: PostCreateUserTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 30.343 s <<< FAILURE! - in PostCreateUserTest
+unsuccessfulRegistrationWithOutContentType  Time elapsed: 1.926 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <201>.
+
+	at PostCreateUserTest.unsuccessfulRegistrationWithOutContentType(PostCreateUserTest.java:321)
+
+unsuccessfulRegistrationWithOutSoftrApiKey  Time elapsed: 1.44 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <201>.
+
+	at PostCreateUserTest.unsuccessfulRegistrationWithOutSoftrApiKey(PostCreateUserTest.java:283)
+
+unsuccessfulRegistrationWithOutSoftrDomain  Time elapsed: 1.538 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <201>.
+
+	at PostCreateUserTest.unsuccessfulRegistrationWithOutSoftrDomain(PostCreateUserTest.java:302)
+
+unsuccessfulRegistrationWithMethodGet  Time elapsed: 1.757 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> but was <200>.
+
+	at PostCreateUserTest.unsuccessfulRegistrationWithMethodGet(PostCreateUserTest.java:265)
+
+successfulCreateUser  Time elapsed: 0.61 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> but was <409>.
+
+	at PostCreateUserTest.successfulCreateUser(PostCreateUserTest.java:56)
+
